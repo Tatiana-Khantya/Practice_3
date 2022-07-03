@@ -7,9 +7,9 @@ Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
 if (num > 0)
 {
-for (int i = 1; i <= num; i++)
-{
-    Console.WriteLine($"|Куб числа {i,4}  =  |{i * i * i,4}|");
-}
+    for (int i = 1; i <= num; i++)
+    {
+        Console.WriteLine($"|Куб числа {i,4}  =  |{i * i * i,4}|");
+    }
 }
 else Console.WriteLine($"Число {num} отрицательное");
